@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+article{
+    /* font-size: medium;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif; */
+
+    /* font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style: normal; */
+
+  height: 500px;
+  width: 500px;
+  border: 1px solid;
+
+  box-shadow: inset 0px 0px 20px blue, 0px 0px 30px red;
+}
+#first{
+ visibility: hidden;
+ /* display: none; */
+ 
+}

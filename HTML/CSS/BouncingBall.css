@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.Ball{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    box-shadow: 0px 2px 0px black;
+    animation-name: Ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Ball {
+    0%{
+        top: 40px;
+        background-color: aqua;
+    }
+    25%{
+        top: 450px;
+        background-color: blueviolet;
+        transform: scale(1.2);
+
+    }
+    50%{
+        top: 200px;
+        background-color:forestgreen;
+    }
+    75%{
+        top: 450px;
+        background-color: blue;
+    }
+    100%{
+        top: 400px;
+        background-color:hotpink;
+        transform: scale(0.8);
+    }
+
+}

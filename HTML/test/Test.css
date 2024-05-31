@@ -1,0 +1,25 @@
+#border{
+    border: 2px transparent;
+    display: inline-block;
+    box-shadow: 0 0 20px rgb(109, 89, 89);
+    border-radius: 20px;
+    margin: 10px 0 30px 160px;
+    height: 350px;
+    width: 400px;
+}
+
+img {
+    height: 250px;
+    width: 300px;
+    margin: 20px 0 0 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+p{
+    display: inline-block;
+    margin: 0 0 0 142px;
+}
+

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+article{
+    height: 300px;
+  width: 500px;
+  border: 10px solid;
+  box-shadow: 10px 10px 20px green;
+  padding: 10px 80px 10px 20px;
+  margin: 10px;
+}

@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+h1{
+    text-align: center; 
+    color: #a52a2a;
+    /* color: rgb(200, 100, 150); */
+    /* color: rgba(85, 40, 50, 0.5); */
+    /* color: hsl(180deg, 50%, 40%); */
+    /* color: hsla(140deg, 30%, 40%, 0.8); */
+    text-transform: capitalize;
+    text-shadow: 2px 5px 10px blue;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(13, 13, 13);
+    /* text-decoration-style:double; */
+    text-decoration-thickness:inherit;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    /* text-indent: 150px; */
+    
+}
+p{
+    text-align-last: center;
+}

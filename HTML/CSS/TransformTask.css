@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    border: 2px solid;
+    background-color: rgb(184, 134, 231);
+    transition:all 2s;
+    transition-timing-function: ease;
+    transform: rotate(50deg);
+    
+    
+}
+/* .cont:hover{
+    width: 100%;
+} */
+.cont1{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: rgb(133, 89, 243);
+    transition:all 2s;
+    transition-timing-function: ease-out;
+    
+}
+.cont1:hover{
+    width: 100%;
+}
+.cont2{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: rgb(34, 37, 237);
+    transition:all 2s;
+    transition-timing-function: ease-in-out;
+    transform: rotate(40deg);
+    
+}
+.cont2:hover{
+    width: 100%;
+}
+.cont3{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: rgb(35, 124, 241);
+    transition:all 2s;
+    transition-timing-function: ease-in;
+    transform: rotateY(50deg);
+}
+.cont3:hover{
+    width: 100%;
+}
+.cont4{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    border-radius: 30%;
+    border: 2px solid;
+    background-color: rgb(23, 209, 242);
+    transition:all 2s;
+    transition-timing-function: ease;
+    transform: skew(40deg);
+}
+.cont4:hover{
+    width: 100%;
+}
